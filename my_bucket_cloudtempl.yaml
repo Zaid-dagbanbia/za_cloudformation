@@ -1,0 +1,9 @@
+#CloudFormationTemplateVersion
+#Description
+AWSTemplateFormatVersion: '2010-09-09'
+Description: 'CloudFormation template for S3 Bucket'
+Resources:
+  S3Bucket1:
+    Type: 'AWS::S3::Bucket'
+    Properties:
+      BucketName: 'cloud-template-bucket-yaml'
